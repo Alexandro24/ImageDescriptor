@@ -1,0 +1,86 @@
+
+/*----------------------------------------ventana de herramientas derecha---------------------------------------------*/
+
+.rightTools{
+    height: 100vh;
+    width: 176px;
+    background-color: #272c34;
+    
+}
+    
+/*-----------------------------------------------------------------------------------*/
+.inputTexto{
+    width: 144px;
+    margin-bottom: 20px;
+}
+.toolText{
+    margin-top: 45px;
+    margin-bottom: 30px;
+    border-bottom: 5px solid #4d4d51;
+    color: rgb(180, 180, 180);
+}
+.textToolSpan{
+    overflow-y: scroll;
+    width: 140px;
+    height: 65px;
+    
+}
+.queueTextTool{
+    max-height: 229px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+.textToolBox:hover{
+    border: 1px solid var(--HoverBorder);
+}
+
+.textToolBox{
+    max-width: 144px;
+    max-height: 100px;
+
+    width: 144px;
+    height: 70px;
+
+    cursor: pointer;
+
+    margin-top: 5px;
+}
+
+
+.textToolCanvas{
+    position: absolute;
+    cursor: pointer;
+    max-width: 300px
+}
+.textToolCanvas:hover{
+    border: 2px solid #2d5eae;
+}
+
+/*-----------------------------------------------------------------------------------*/
+.toolDimension{
+    display: block;
+    border-bottom: 5px solid #4d4d51;
+    height: 17vh;
+    color: rgb(180, 180, 180);
+}
+/*-----------------------------------------------------------------------------------*/
+.toolForm{
+    border-bottom: 5px solid #4d4d51;
+    /*height: 13vh;*/
+    height: auto;
+}
+.iconShapeTool{
+
+}
+.iconShapeTool:hover{
+    cursor: pointer;
+    border: 2px solid #009619;
+}
+
+.divShapeTools{
+    display: flex;
+    flex-wrap:wrap;
+    margin-bottom: 14px;
+    margin-top: 10px;
+}
+

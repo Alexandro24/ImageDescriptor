@@ -1,0 +1,60 @@
+/*Estos son los estilos de la ventana de trabajo central y la galeria izquierda*/
+
+
+
+.principalScreen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/*-------------------------------------------Ventana central marcos--------------------------------------------------*/
+.frameWorkArea{
+    background-color: #2c2f3a;
+    height: 100vh;
+    width: 72%;
+    display: block;
+    overflow: hidden;
+}
+
+.buttonToolsArea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.DivImageBox {
+    /*display:inline-block;*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 0px;
+
+}
+
+.DivImageBox div{
+    display:inline-block;
+}
+.DivImageBox img{
+    width: 100%;
+    height: 100%;
+}
+
+/*-------------------------------------ventana izquierda upload---------------------------------------------------*/
+.result{
+    height: 100vh;
+    max-height: auto;
+    width: 176px;
+    background-color: #272c34;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    overflow: scroll;
+    
+  }
+
+
+
+

@@ -1,0 +1,98 @@
+/*------------------------------MEDIA QUERIES-------------------------------------------*/
+
+@media screen and (max-width: 1300px) {
+   
+    
+}
+@media screen and (max-width: 1280px) {
+    .result.responsive{
+        width: 97%;
+        height: 24vh;
+        overflow:scroll;
+        flex-wrap:  wrap;
+    }
+    img{
+        width: 30%;
+    }
+    .frameWorkArea.responsive{
+        width: 97%;
+    }
+    .rightTools.res{
+        /*display: none;*/
+        display: flex;
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .rightTools.res .toolText{
+        width: 100%;
+    }
+    .rightTools.res .toolForm{
+        width: 100%;
+    }
+    .rightTools.res .toolDimension{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 992px) {
+
+    .result.responsive{
+        width: 97%;
+        overflow:scroll;
+        height: 24vh;
+        flex-wrap: wrap;
+    }
+
+    img{
+        width: 30%;
+    }
+    .frameWorkArea.responsive{
+        width: 97%;
+    }
+    .rightTools.res{
+        /*display: none;*/
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+    .result.responsive{
+        width: 97%;
+        height: 24vh;
+        overflow:scroll;
+        flex-wrap:  wrap;
+    }
+    img{
+        width: 30%;
+    }
+    .frameWorkArea.responsive{
+        width: 97%;
+        height: 150vh;
+    }
+    .rightTools.res{
+        /*display: none;*/
+        display: flex;
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+        position: fixed;
+        bottom: 0;
+    }
+
+    .rightTools.res .toolText{
+        width: 100%;
+    }
+    .rightTools.res .toolForm{
+        width: 100%;
+    }
+    .rightTools.res .toolDimension{
+        width: 100%;
+    }
+    
+}
